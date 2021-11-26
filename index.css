@@ -1,7 +1,40 @@
-.machine {
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.machine {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  border: 1px solid black; */
+}
+
+.quote {
+  font-size: 1.75em;
+  margin-bottom: 25px;
+  color: #666666;
+}
+
+.author {
+  font-size: 1.2em;
+  text-align: right;
+}
+
+#tweet-quote {
+  font-size: 1.25em;
+}
+#new-quote {
+  margin-left: 120px;
 }
